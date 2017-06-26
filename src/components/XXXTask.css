@@ -1,0 +1,124 @@
+.task-container{
+    float: left;
+    width: 25%;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.task-container h3{
+    text-align: center;
+}
+.task-container input{
+  width: 210px;
+  text-align: right;
+  padding: 10px;
+  font-size: 14px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-appearance: none;
+  outline: none;
+  color: #333;
+}
+.task-container button{
+  position: relative;
+  margin-left: 10px;
+  width: 60px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  outline: none;
+  border-radius: 5px;
+}
+.first-task button {
+     background: #e8f2f1;
+box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+}
+.first-task button:hover {
+  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+.first-task button:active {
+  background: #c4c7ce;
+    box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;
+}
+
+.second-task button {
+background: #3a7c26 linear-gradient(#a7f98e, #3a7c26);
+box-shadow: 0 0 0 1px #a7f98e inset, 0 1px 1px  #3a8224;
+}
+.second-task button:hover {
+  background: #4c9b53 linear-gradient(#9ee2a4, #4c9b53);
+  box-shadow: 0 0 0 1px #75d657 inset, 0 1px 1px #75da27;
+}
+.second-task button:active {
+  background: #5db758;
+    box-shadow: 0 0 0 1px #398734 inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #3a7c26;
+}
+
+.third-task button {
+background: #6e6aa3 linear-gradient(#cec7e2, #6e6aa3);
+box-shadow: 0 0 0 1px #87a4c1 inset, 0 1px 1px  #486e93;
+}
+.third-task button:hover {
+  background: #7777c4 linear-gradient(#9999c4, #7777c4);
+  box-shadow: 0 0 0 1px #8787b7 inset, 0 1px 1px #5a52b7;
+}
+.third-task button:active {
+  background: #4a598e;
+    box-shadow: 0 0 0 1px #8792ba inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #1d2e6b;
+}
+
+.fourth-task button {
+background: #8c3286 linear-gradient(#d383bc, #8c3286);
+box-shadow: 0 0 0 1px #a86ba4 inset, 0 1px 1px  #963c90;
+}
+.fourth-task button:hover {
+  background: #682664 linear-gradient(#d888d3, #682664);
+  box-shadow: 0 0 0 1px #b558af inset, 0 1px 1px #842b7e;
+}
+.fourth-task button:active {
+  background: #992c92;
+    box-shadow: 0 0 0 1px #b255ac inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #772172;
+}
+
+/* custom*/
+.task-result {
+    word-wrap: break-word;
+    text-align: left;
+    /*height: 60%;*/
+    width: 94%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+   overflow: scroll; /* Добавляем полосы прокрутки */
+    width: 250 px; /* Ширина блока */
+    height: 300px; /* Высота блока */
+    padding: 5px; 
+/*    
+    font-size: 16px;
+    line-height: 1.5;*/
+}
+.task-result p{
+    margin: 10px 0;
+}
+.first-task .task-result{
+    background: #e8f2f1;
+}
+.second-task .task-result{
+    background: #a7f98e;
+}
+.third-task .task-result{
+    
+    background: #cec7e2;
+}
+.fourth-task .task-result{
+    background: #d383bc;
+}

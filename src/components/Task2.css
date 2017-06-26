@@ -1,0 +1,17 @@
+#info-block-menu{
+    margin-top: 100px;
+	font-family: 'Comfortaa', cursive;
+	font-weight:100;
+	background: rgba(0,0,0,0.3);
+	color: white;
+	/*padding: 2em;*/
+	width: 99%;
+	/*margin:2em;*/
+	position: absolute;
+	z-index:1000;
+	/*right:0%;*/
+	top:0;
+	font-size: 1em;
+	max-height: 60%;
+	height: 60%;
+}

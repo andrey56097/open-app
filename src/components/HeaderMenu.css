@@ -1,53 +1,9 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 .main-contain {
-	width: 50%;
+	width: 43%;
 	margin: 0px auto;
 }
-
 .menu {
+	margin-top:10px;
 	background: #ddd;
 	height: 40px;
 	display: block;
@@ -76,13 +32,6 @@ table {
 	color: #fff;
 }
 
-ul.dd-ul {
-	position: absolute;
-	background: #ddd;
-	border-radius: 0px 0px 10px 10px;
-	display: none;
-	width: 140px;
-}
 ul li:hover > ul {
 	display: block !important;
 	transition: all 300ms ease-in-out 0s;
@@ -90,23 +39,15 @@ ul li:hover > ul {
 .dd-ul > li {
 	border-bottom: 1px solid #ccc;
 }
-.dd-ul > li:last-child {
+
+.first-ul > li:last-child {
 	border-bottom: 0px solid #ccc;
+	/*margin-right: 0px;*/
 }
+
 ul.dd-ul li a {
 	text-decoration: none;
 	color: #23272D;
 	padding: 0 12px;
 	display: block;
-}
-.first-ul li .dd:before {
-	color: #808b9c;
-	content: "\f107";
-	display: inline;
-	font-family: FontAwesome;
-	margin-left: 70px;
-	position: absolute;
-	text-align: center;
-	width: 10px;
-	z-index: 99;
 }

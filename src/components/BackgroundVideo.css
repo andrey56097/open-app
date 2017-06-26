@@ -1,7 +1,10 @@
 .stopfade {opacity: .5;}
 
 .wrapper{
-	max-width:1920px; margin:0 auto; overflow: hidden; position:relative;
+	max-width:1920px; 
+	margin:0 auto; 
+	overflow: hidden; 
+	position:relative;
 }
 
 body{
@@ -66,8 +69,12 @@ video{
 	background: rgba(255,255,255,0.23); 
 	color: #fff; 
 	border-radius: 3px; 
-	cursor: pointer; transition: .3s background;}
-	#info-block button:hover {background: rgba(0,0,0,0.5);
+	cursor: pointer; 
+	transition: .3s background;
+}
+
+#info-block button:hover {
+	background: rgba(0,0,0,0.5);
 }
 
 #menu-block{
