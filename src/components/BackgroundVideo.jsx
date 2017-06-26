@@ -12,6 +12,19 @@ class BackgroundVideo extends Component {
     return (
          
           <div class="wrapper">
+             
+             <div id="menu-block">
+                 <HeaderMenu/>
+                 <MainContent/>
+
+                  <div id="info-block">
+                <h1>Phasellus consectetur, nunc eget pellentesque dignissim</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.</p>
+                <button>Pause</button>
+              </div>
+              </div>
+
+
               <video autoplay id="bgvid" loop autoPlay>
                 <source src={require("./video/forest.webm")} type="video/webm" />
                 <source src={require("./video/forest.mp4")} type="video/mp4" />
@@ -19,16 +32,9 @@ class BackgroundVideo extends Component {
                 <a href="forest.mp4">Скачайте видео</a>.
               </video>
 
-              <div id="menu-block">
-                 <HeaderMenu/>
-                 <MainContent/>
-              </div>
+             
             
-              <div id="info-block">
-                <h1>Phasellus consectetur, nunc eget pellentesque dignissim</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lobortis lectus neque, at faucibus neque consequat eu. Vivamus accumsan pulvinar mi nec molestie. Nam pretium nisi vitae tortor lacinia congue.</p>
-                <button>Pause</button>
-              </div>
+             
           </div>
     );
   }

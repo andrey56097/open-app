@@ -5,7 +5,7 @@ import './HeaderMenu.css';
 
 class HeaderMenu extends Component {
     render() {
-   {/*<div className="primary-menu">
+        {/*<div classNameName="primary-menu">
                     <nav>
                         <ul>
                             <li><Link to="/"><span>Home</span></Link></li>
@@ -16,40 +16,21 @@ class HeaderMenu extends Component {
                     </nav>
                 </div>*/}
         return (
-             
-<div class="main-contain">
-			<nav class="menu">
-				<ul class="first-ul">
+
+            <header>
+                
+
+<div className="main-contain">
+			<nav className="menu">
+				<ul className="first-ul">
 					<li>
 						<a href="#">Home</a>
 					</li>
 					<li>
-						<a href="#" class="dd">Services</a>
-						<ul class="dd-ul">
-							<li>
-								<a href="#">Web</a>
-							</li>
-							<li>
-								<a href="#">Graphic</a>
-							</li>
-							<li>
-								<a href="#">Social Media</a>
-							</li>
-							<li>
-								<a href="#">Mobile Apps</a>
-							</li>
-						</ul>
+						<a href="#" className="dd">Services</a>
 					</li>
 					<li>
-						<a class="#">About us </a>
-						<ul class="dd-ul">
-							<li>
-								<a href="#">Web</a>
-							</li>
-							<li>
-								<a href="#">Graphic</a>
-							</li>
-						</ul>
+						<a className="dd">About us </a>
 					</li>
 					<li>
 						<a href="#">Contact us</a>
@@ -57,6 +38,7 @@ class HeaderMenu extends Component {
 				</ul>
 			</nav>
 		</div>
+            </header>
 
         );
     }
