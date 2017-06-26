@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-// import './HeaderMenu.css';
+import './HeaderMenu.css';
 
 class HeaderMenu extends Component {
     render() {
-
-        return (
-            <header>
-                <div className="primary-menu">
+   {/*<div className="primary-menu">
                     <nav>
                         <ul>
                             <li><Link to="/"><span>Home</span></Link></li>
@@ -17,8 +14,50 @@ class HeaderMenu extends Component {
                             <li><Link to="/Module3"><span>Task3</span></Link></li>
                         </ul>
                     </nav>
-                </div>
-            </header>
+                </div>*/}
+        return (
+             
+<div class="main-contain">
+			<nav class="menu">
+				<ul class="first-ul">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#" class="dd">Services</a>
+						<ul class="dd-ul">
+							<li>
+								<a href="#">Web</a>
+							</li>
+							<li>
+								<a href="#">Graphic</a>
+							</li>
+							<li>
+								<a href="#">Social Media</a>
+							</li>
+							<li>
+								<a href="#">Mobile Apps</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="#">About us </a>
+						<ul class="dd-ul">
+							<li>
+								<a href="#">Web</a>
+							</li>
+							<li>
+								<a href="#">Graphic</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Contact us</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
         );
     }
 }

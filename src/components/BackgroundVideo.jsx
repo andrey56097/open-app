@@ -4,12 +4,13 @@ import React, { Component } from 'react';
 // import './script.js';
 import './BackgroundVideo.css';
 
-// import HeaderMenu from './components/HeaderMenu';
-// import MainContent from './components/MainContent';
+import HeaderMenu from './HeaderMenu';
+import MainContent from './MainContent';
 
 class BackgroundVideo extends Component {
   render() {
     return (
+         
           <div class="wrapper">
               <video autoplay id="bgvid" loop autoPlay>
                 <source src={require("./video/forest.webm")} type="video/webm" />
@@ -18,10 +19,10 @@ class BackgroundVideo extends Component {
                 <a href="forest.mp4">Скачайте видео</a>.
               </video>
 
-              {/*<div id="menu-block">
-                <HeaderMenu />
-                <MainContent />
-              </div>*/}
+              <div id="menu-block">
+                 <HeaderMenu/>
+                 <MainContent/>
+              </div>
             
               <div id="info-block">
                 <h1>Phasellus consectetur, nunc eget pellentesque dignissim</h1>
