@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './XXXTask.css';
 
+import NewComponent from './NewComponent';
+
 class XXXTask extends Component {
   constructor(props) {
         super(props);
@@ -49,6 +51,8 @@ class XXXTask extends Component {
             </div>
         );
     }
+
+
 }
 
 export default XXXTask;

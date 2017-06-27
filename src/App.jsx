@@ -9,7 +9,7 @@ import BackgroundVideo from './components/BackgroundVideo';
 class App extends Component {
   render() {
     return (
-      <div >
+      <div>
         <BackgroundVideo/>
       </div>
     );

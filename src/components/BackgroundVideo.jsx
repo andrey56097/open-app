@@ -11,7 +11,7 @@ class BackgroundVideo extends Component {
   render() {
     return (
 
-      <div class="wrapper">
+      <div className="wrapper">
 
           <div id="menu-block">
             <HeaderMenu />
@@ -25,7 +25,7 @@ class BackgroundVideo extends Component {
           </div>
 
 
-          <video autoplay id="bgvid" loop autoPlay>
+          <video id="bgvid" loop autoPlay>
             <source src={require("../video/forest.webm")} type="video/webm" />
             <source src={require("../video/forest.mp4")} type="video/mp4" />
             Тег video не поддерживается вашим браузером.

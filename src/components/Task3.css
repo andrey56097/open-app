@@ -1,0 +1,108 @@
+
+img {
+  display: block;
+}
+
+.slider {
+
+    position: absolute;
+    width: 640px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    background: #ccc;
+  text-align: center;
+  line-height: 300px; 
+  background-size: cover; 
+  background-position:50% 50%;
+  color:#fff;
+
+   animation-name: move;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-delay: 0.5s;
+   animation-iteration-count: 2;
+   animation-direction: alternate;
+
+
+}
+
+.slides {
+    
+  height: 300px;
+overflow: hidden;
+position: relative;
+
+    margin:0px;
+  padding:0px;
+  
+  -webkit-transform: translate3d(0px,0px,0px);
+  transform: translate3d(0px,0px,0px);
+  
+    
+  transition: all 0.66s ease; -webkit-transition: all 0.66s ease; 
+
+  transition-timing-function: ease
+
+}
+
+.slide {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /*transition: .5s ease-in;
+  visibility: hidden;*/
+
+  /*height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;*/
+	z-index: 0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  
+}
+
+
+.slide.on-left {
+  transform: translateX(-100%);
+}
+
+.slide.active {
+  transform: translateX(0%);
+  visibility: visible;
+}
+
+.slide.on-right {
+  transform: translateX(100%);
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.buttons > div {
+  background-color: rgba(0, 0, 0, .4);
+  border: 1px solid rgba(0, 0, 0, .15);
+  color: #f0f0f0;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 1.5em .65em;
+  transform: translateY(-50%);
+}
